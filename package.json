@@ -1,12 +1,9 @@
 {
-  "name": " ",
+  "name": "-",
   "version": "0.0.1",
-  "description": "",
   "private": true,
-  "keywords": [
-    ""
-  ],
-  "license": "",
+  "keywords": [],
+  "license": "ISC",
   "author": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,8 +11,17 @@
     "build": "webpack --config webpack.config.prod.js"
   },
   "devDependencies": {
+    "browser-sync": "^3.0.4",
     "copy-webpack-plugin": "^11.0.0",
+    "del": "^8.0.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-sass": "^6.0.1",
     "html-webpack-plugin": "^5.6.0",
+    "sass": "^1.86.3",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4",
@@ -23,5 +29,15 @@
   },
   "dependencies": {
     "bootstrap-icons": "^1.11.3"
-  }
+  },
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/den1zer/EcommerceWebSite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/den1zer/EcommerceWebSite/issues"
+  },
+  "homepage": "https://github.com/den1zer/EcommerceWebSite#readme",
+  "description": ""
 }
